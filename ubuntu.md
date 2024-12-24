@@ -14,7 +14,7 @@ windows
 - masukan username dan passsword linux
 
 note :
-- jika pakai vm (virtual machine) pastikan setting network nya bridge adapter agar bisa di remote, contoh ip yang tidak bisa di remote : 10.0.2.15)
+- jika pakai vm (virtual machine) pastikan setting network nya bridge adapter agar bisa di remote, contoh ip yang tidak bisa di remote : (10.0.2.15)
 - jika saat start xrdp gagal karena port nabrak, rubah port 3389 menjadi : 3390/3391 (command : sudo nano /etc/xrdp/xrdp.ini , rubah di bagian globals dan pilih yang port:3389 menjadi 3390/3391)
 - untuk remote di windows dengan tidak memakai port default (contoh pakai port 3390, 192.168.0.100:3390)
  
