@@ -2,8 +2,8 @@ Ubuntu
 - sudo apt update && apt upgrade -y
 - sudo apt install xrdp
 - sudo systemctl restart xrdp
-- sudo syatemctl status xrdp (cek apakah xrdp berjalan)
-- sudo apt install xfce (jika mau pake xfce bukan gnome)
+- sudo systemctl status xrdp (cek apakah xrdp berjalan)
+- sudo apt install xfce4 (jika mau pake xfce bukan gnome)
 - sudo ufw enable
 - sudo ufw allow 3389/tcp (sesuaikan port dengan yang di gunakan)
 - sudo ufw status (untuk cek apa port nya sudah terbuka)
